@@ -37,10 +37,9 @@ python3 transfer_bonafide_files.py
 
 In the root directory, navigate to the "Data Science Project Challenge" folder and run the following command:
 
-shell """
 
 python3 generating_corpus.py
-"""
+
 
 3. Creating cloning audios:
 
@@ -48,13 +47,13 @@ Navigate to the "tortoise-tts" directory.
 
     Without using multiprocessing techniques:
 
-    shell
+    
 
 python3 cloning_audio_files.py
 
 Using multiprocessing techniques:
 
-shell
+
 
         python3 cloning_audio_files_using_multiprocessing_techniques.py
 
