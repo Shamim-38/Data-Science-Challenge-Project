@@ -1,0 +1,119 @@
+Generative AI
+
+Thank you for expressing your interest in participating in our Data Science Challenge project. Below are details of the project which you need to complete and submit as a Zipped file using this Google form.
+
+It is absolutely OK for you to not finish all the questions/tasks below. You will be evaluated based on your approach to problem solving, not always for the final result.
+
+Project Overview:
+
+The Data Science Challenge revolves around analyzing synthetic datasets mimicking real-world behavior and deriving actionable insights. Please refrain from sharing / posting the code, datasets and any resource materials provided to you with other participants or third parties. Any such unauthorized sharing will result in an immediate termination of your candidacy and further legal consequences, even after you are hired. 
+
+Also please be advised that if you comply with this policy and in case you are not selected, we will consider providing you further chances with this challenge after a certain time interval.
+
+
+Objectives:
+
+Your main objectives in this challenge are as follows:
+
+    Exploratory Data Analysis: Perform a thorough exploration of the dataset, including data cleaning, preprocessing, and feature engineering if necessary.
+
+    Data Modeling: Develop a predictive model that addresses a specific problem or question based on the dataset. This could involve classification, regression, clustering, or any other relevant technique.
+
+    Insights and Recommendations: Analyze the results of your model and derive actionable insights that can be used to make informed decisions or recommendations.
+
+Timeline:
+
+The Data Science Challenge will have a duration of 1 week once this email is sent.
+
+
+Collaboration and Communication:
+
+As discussed earlier, you cannot share/collaborate/seek advice/accept help/seek help from forum participants regarding any of the questions or topics mentioned below. Discovery of any such activities, even after you are hired, will result in your immediate termination.
+
+Evaluation Criteria:
+
+Your project will be evaluated based on the following criteria:
+
+    Data Cleaning and Preprocessing: How effectively you handle missing data, outliers, and data quality issues.
+
+    Exploratory Data Analysis: The depth and relevance of your exploratory analysis.
+
+    Model Development and Performance: The choice and implementation of appropriate modeling techniques and the accuracy or performance of your predictive model.
+
+    Insights and Recommendations: The clarity and significance of the insights derived from your analysis.
+
+
+Submission Guidelines:
+
+Please submit your completed project within a week of receiving this email. Your submission should include:
+
+    Code: Python script(s), a Read Me file explaining how to execute your code [you will get a Zero if we cannot execute your code or if your instructions are too complicated to follow]. 
+
+    Insert sufficient comments in your codes, describe which portion of the code is responding to which question/task associated with this challenge.
+
+    Organize your code in such a way that a novice can download, execute, and understand what you created and relate your work to the Questions/Tasks below
+
+    Results and Insights: If you want, you can also Include for extra points, a PDF report/presentation documenting your approach, key findings, and any challenges faced during the project.
+
+    Final Submission Instructions: Take all your submission from 1 and 2 above, create appropriate folder/sub-folders on your computer, then zip the root folder, and upload your zipped file as your final submission using this google form.
+
+    Please note your submissions are final, you cannot re-submit once submitted. So, take your time before hitting the submit button.
+
+Below is your challenge task:
+
+Dataset:
+
+https://datashare.ed.ac.uk/download/DS_10283_3336.zip
+
+Dataset Description:
+
+Folder structure in the dataset is the following,
+
+  ./ASVspoof2019_root
+  	  	--> LA  
+          		--> ASVspoof2019_LA_asv_protocols
+          		--> ASVspoof2019_LA_asv_scores
+	  		--> ASVspoof2019_LA_cm_protocols
+          		--> ASVspoof2019_LA_dev
+          		--> ASVspoof2019_LA_eval
+	  		--> ASVspoof2019_LA_train
+	  		--> README.LA.txt
+  	  	--> PA 
+          		--> ASVspoof2019_PA_asv_protocols
+          		--> ASVspoof2019_PA_asv_scores
+	  		--> ASVspoof2019_PA_cm_protocols
+          		--> ASVspoof2019_PA_dev
+          		--> ASVspoof2019_PA_eval
+	  		--> ASVspoof2019_PA_train
+	  		--> README.PA.txt
+	  	--> asvspoof2019_evaluation_plan.pdf
+	  	--> asvspoof2019_Interspeech2019_submission.pdf
+	  	--> README.txt 
+
+You will only work with LA datasets. 
+
+Solve the following (Mandatory)
+
+    (10 points) Go to the folder ASVspoof2019_LA_cm_protocols. You will find three protocol files corresponding to the folders ASVspoof2019_LA_dev, ASVspoof2019_LA_eval and ASVspoof2019_LA_train. Each of these three folders (ASVspoof2019_LA_dev, ASVspoof2019_LA_eval and ASVspoof2019_LA_train) contain multiple audio files. Some of those audio files are spoof audio and some are bonafide. Inside the ASVspoof2019_LA_cm_protocols folders there are three files that describes which of the corresponding audio file in the corresponding folder are spoof and which are bonafide. Write a script to copy all the bonafide audio files in another folder (name the folder bonafide_audio_files) in the root directory of the project.
+
+    (10 points) Create a corpus of 1,000, 000 English sentences which are at least 5 words long. Put this corpus in a folder named english_sentence_corpus in the root root directory of the project.
+
+    (80 points) Clone the repository https://github.com/neonbjb/tortoise-tts/tree/main. This repository has the code to create high quality voice clones of an audio file. Change the code or create a wrapper so that it takes the arguments from command line - the path of the folder bonafide_audio_files, the path of the folder english_sentence_corpus and an integer n which is greater than or equal to 2. The code should go to the bonafide_audio_files folder and take the first audio file, next the code should go to the english_sentence_corpus and randomly select 2 english sentences and create a clone of the audio file with the selected 2 english sentences and put it in a new directory in the root folder named cloned_audio_files. Again randomly select 2 english sentences and create another clone of the same file and put it in the same directory cloned_audio_files. Repeat it n times which was an argument you passed. Now take the second audio file from bonafide_audio_files folder and repeat the same process. In this way create n clones of all the files in the folder called bonafide_audio_files and put all those in cloned_audio_files. Your file naming convention should be unique to track which files in cloned_audio_files are clones of which file in bonafide_audio_files. Put this mapping into a dataframe and save it in the root directory as a csv.
+
+Note: In this short period of time if you can do parallel programming of cloning the audio files into multiple processors to make the whole process much faster for high quality clone that would be considered a huge plus point on your skillset.
+
+Bonus Points (Optional)
+
+    (20 points) Modularize the code
+
+    (15 points) Provide a written technical report of all your analysis for other scientists.
+
+    (5 points) Do unit testing
+
+    (5 points) Do linting
+
+    (5 points) Create a presentation for non data scientists
+
+We believe that this Data Science Challenge will not only allow you to showcase your technical skills but also provide valuable learning and growth opportunities.  Best of luck, and let's make this project a great success!
+
+
