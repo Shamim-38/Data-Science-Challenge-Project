@@ -5,7 +5,8 @@ Data Science Challenge Project
 This repository contains the code and resources for the Data Science Challenge project. The project aims to analyze synthetic datasets that mimic real-world behavior and derive actionable insights from them.
 Project Overview
 
-The Data Science Challenge revolves around analyzing synthetic datasets mimicking real-world behavior and deriving actionable insights.
+The Data Science Challenge revolves around analyzing synthetic datasets mimicking real-world behavior and deriving actionable insights. Deatailed about Project here Challenge.txt
+
 Installation
 
 To use this project on your local machine, you must have an NVIDIA GPU.
